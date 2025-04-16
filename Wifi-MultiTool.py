@@ -196,7 +196,7 @@ def intro():
 My Name is Freak, A Ethical Hacker,Bug Bounty Hunter,Currently Working as Cyber Security Researcher,
 You Can Find Me On Instagram ;)
 
-https://www.instagram.com/usrfreak.exe/
+https://www.instagram.com/usrfreak.exe
 
 Discord : freak.fr
 
