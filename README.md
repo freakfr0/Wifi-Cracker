@@ -6,7 +6,7 @@ This script provides a user interface for various Wi-Fi security tools and attac
 ## Usage
 
 1. Install the required tools using the provided command:
-   ```
+   
    apt-get install aircrack-ng crunch xterm wordlists reaver pixiewps bully xterm wifite
    ```
 
