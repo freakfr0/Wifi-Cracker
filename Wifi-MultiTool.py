@@ -9,7 +9,7 @@ cmd0 = os.system("apt-get install aircrack-ng crunch xterm wordlists reaver pixi
 cmd  = os.system("sleep 3 && clear")
 def intro():
     cmd  = os.system("clear")
-    print("""\033[1;32m
+    print("""\033[1;0m
 ---------------------------------------------------------------------------------------
 
               .....             .         s                              
