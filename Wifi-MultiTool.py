@@ -11,13 +11,22 @@ def intro():
     cmd  = os.system("clear")
     print("""\033[1;32m
 ---------------------------------------------------------------------------------------
-██╗    ██╗██╗███████╗██╗       ██████╗██████╗  █████╗  ██████╗██╗  ██╗███████╗██████╗ 
-██║    ██║██║██╔════╝██║      ██╔════╝██╔══██╗██╔══██╗██╔════╝██║ ██╔╝██╔════╝██╔══██╗
-██║ █╗ ██║██║█████╗  ██║█████╗██║     ██████╔╝███████║██║     █████╔╝ █████╗  ██████╔╝
-██║███╗██║██║██╔══╝  ██║╚════╝██║     ██╔══██╗██╔══██║██║     ██╔═██╗ ██╔══╝  ██╔══██╗
-╚███╔███╔╝██║██║     ██║      ╚██████╗██║  ██║██║  ██║╚██████╗██║  ██╗███████╗██║  ██║
- ╚══╝╚══╝ ╚═╝╚═╝     ╚═╝       ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝
-                                                        Coded By BlackHatHacker-Ankit
+
+              .....             .         s                              
+           .H8888888h.  ~-.    @88>      :8                              
+           888888888888x  `>   %8P      .88                   u.    u.   
+          X~     `?888888hx~    .      :888ooo       u      x@88k u@88c. 
+          '      x8.^"*88*"   .@88u  -*8888888    us888u.  ^"8888""8888" 
+           `-:- X8888x       ''888E`   8888    .@88 "8888"   8888  888R  
+                488888>        888E    8888    9888  9888    8888  888R  
+              .. `"88*         888E    8888    9888  9888    8888  888R  
+            x88888nX"      .   888E   .8888Lu= 9888  9888    8888  888R  
+           !"*8888888n..  :    888&   ^%888*   9888  9888   "*88*" 8888" 
+          '    "*88888888*     R888"    'Y"    "888*""888"    ""   'Y"   
+                  ^"***"`       ""              ^Y"   ^Y'                
+                                                               
+                                                                                                                       
+                                                        Coded By : Freak.fr
 ---------------------------------------------------------------------------------------                                                                     
 (1)Start monitor mode       
 (2)Stop monitor mode                        
@@ -183,15 +192,13 @@ def intro():
     elif var == 0 :
         cmd = os.system("clear")
         print("""
-Hi.
-My Name is 4nk17, A Ethical Hacker,Bug Bounty Hunter,Currently Working as Cyber Security Researcher.
-you can find on Instagram
+        
+My Name is Freak, A Ethical Hacker,Bug Bounty Hunter,Currently Working as Cyber Security Researcher,
+You Can Find Me On Instagram ;)
 
-https://www.instagram.com/ankit_kanojiya69/
+https://www.instagram.com/usrfreak.exe/
 
-Contack me +919768367597
-
-Feel Free to Contact,
+Discord : freak.fr
 
 """)
         quit()
