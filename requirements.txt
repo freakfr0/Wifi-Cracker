@@ -1,0 +1,16 @@
+python-crunch
+aircrack-ng
+bully
+crunch
+kalibrate-rtl
+mdk3
+mfcuk
+multimon-ng
+pixiewps
+reaver
+redfang
+rfkill
+rfkill
+rtlsdr-scanner
+spooftooph
+wifite
