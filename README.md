@@ -1,40 +1,46 @@
+
 ```markdown
-# Wi-Fi Security Tools and Attacks
+# WiFi Hacking Tool
 
-This script provides a user interface for various Wi-Fi security tools and attacks. It includes options for starting and stopping monitor mode, scanning networks, capturing handshakes, installing wireless tools, cracking handshakes with different methods, creating wordlists, and performing WPS network attacks.
+This tool is designed to assist in performing WiFi hacking attacks. It provides a set of tools and features to help you secure your WiFi network and protect against unauthorized access.
 
-## Usage
+## Requirements
 
-1. Install the required tools using the provided command:
-   
-   apt-get install aircrack-ng crunch xterm wordlists reaver pixiewps bully xterm wifite
+To use this tool, you'll need the following:
+
+- Python 3.x
+- Required Python packages listed in `requirements.txt`
+
+## Installation
+
+1. Clone the repository or download the source code.
+2. Install the required Python packages by running the following command:
    ```
-
-2. Run the script using Python:
+   pip install -r requirements.txt
+   ```
+3. Run the tool by executing the following command:
    ```
    python Wifi-MultiTool.py
    ```
 
-3. Choose the desired option from the menu.
+## Usage
 
-4. Follow the on-screen instructions to perform the selected action.
+The tool provides a user-friendly interface to perform various WiFi hacking attacks. Here's a brief overview of the available features:
 
-5. The script will execute the chosen command and provide output.
+- Monitor mode
+- Handshake capture
+- WPS attack
+- WPA/WPA2 cracking
+- WEP cracking
+- WPA/WPA2 password cracking
 
-6. To exit the script, enter `00` in the menu.
+For detailed instructions and usage examples, please refer to the tool's documentation or user guide.
 
-## Menu Options
+## Contributing
 
-- `1`: Start monitor mode
-- `2`: Stop monitor mode
-- `3`: Scan networks
-- `4`: Get handshake (monitor mode needed)
-- `5`: Install wireless tools
-- `6`: Crack handshake with rockyou.txt (handshake needed)
-- `7`: Crack handshake with wordlist (handshake needed)
-- `8`: Crack handshake without wordlist (handshake and essid needed)
-- `9`: Create wordlist
-- `10`: WPS network attacks (BSSID and monitor mode needed)
-- `11`: Scan for WPS networks
-- `0`: About Me
-- `00`: Exit
+If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
+
+## License
+
+This tool is licensed under the [MIT License](LICENSE).
+```
