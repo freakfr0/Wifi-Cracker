@@ -1,46 +1,33 @@
+# WiFi Security Tools
 
-markdown
-# WiFi Hacking Tool
+This Python script provides a menu-based interface for various WiFi security tools and attacks. It includes the following features:
 
-This tool is designed to assist in performing WiFi hacking attacks. It provides a set of tools and features to help you secure your WiFi network and protect against unauthorized access.
-
-## Requirements
-
-To use this tool, you'll need the following:
-
-- Python 3.x
-- Required Python packages listed in `requirements.txt`
-
-## Installation
-
-1. Clone the repository or download the source code.
-2. Install the required Python packages by running the following command:
-   ```
-   pip install -r requirements.txt
-   ```
-3. Run the tool by executing the following command:
-   ```
-   python Wifi-MultiTool.py
-   ```
+1. Installing needed tools (aircrack-ng, crunch, xterm, wordlists, reaver, pixiewps, bully, wifite)
+2. Starting monitor mode
+3. Stopping monitor mode
+4. Scanning for WiFi networks
+5. Getting a handshake (requires monitor mode)
+6. Installing wireless tools
+7. Cracking a handshake with a wordlist (rockyou.txt)
+8. Cracking a handshake without a wordlist (requires the handshake, ESSID, and monitor mode)
+9. Creating a wordlist
+10. WPS network attacks (requires the BSSID, monitor mode, and the tools)
+11. Scanning for WPS networks
 
 ## Usage
 
-The tool provides a user-friendly interface to perform various WiFi hacking attacks. Here's a brief overview of the available features:
+1. Make sure you have Python installed on your system.
+2. Download the script and save it as `Wifi-MultiTool.py`.
+3. Open a terminal and navigate to the directory where the script is saved.
+4. Run the script using the command `python Wifi-MultiTool.py`.
+5. The script will display a menu with the available options.
+6. Choose the desired option by entering the corresponding number.
+7. Follow the on-screen instructions to perform the selected action.
 
-- Monitor mode
-- Handshake capture
-- WPS attack
-- WPA/WPA2 cracking
-- WEP cracking
-- WPA/WPA2 password cracking
+## Note
 
-For detailed instructions and usage examples, please refer to the tool's documentation or user guide.
-
-## Contributing
-
-If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
-
-## License
-
-This tool is licensed under the [MIT License](LICENSE).
-```
+- The script uses the `os.system()` function to execute shell commands. It is recommended to run the script in a virtual environment or with appropriate permissions to avoid any issues with package installation or file execution.
+- The script assumes that you have a working internet connection and can install necessary packages using the `apt-get` package manager.
+- The script may require user input for certain commands, such as the interface name, BSSID, channel, and other parameters. Make sure to provide the correct values when prompted.
+- The script does not handle all possible error scenarios gracefully. It is recommended to check the output of the commands and manually correct any issues that arise.
+- The script is provided as is and is not responsible for any misuse or damage caused by its execution. Use it at your own risk.
