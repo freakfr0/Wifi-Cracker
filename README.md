@@ -18,8 +18,8 @@
 
 ## Wifi Security Tool
 
-[![version](https://img.shields.io/badge/version-1.0-brightred)](https://github.com/your-username/your-repo/releases/tag/v1.0.0)
-![license](https://img.shields.io/badge/license-Titan-brightred)
+[![version](https://img.shields.io/badge/version-1.0-red)](https://github.com/your-username/your-repo/releases/tag/v1.0.0)
+![license](https://img.shields.io/badge/license-Titan-red)
 
 This Python script provides a menu-based interface for various WiFi security tools and attacks. It includes the following features:
 
