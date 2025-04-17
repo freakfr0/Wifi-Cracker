@@ -80,7 +80,7 @@ def intro():
         print("\nEnter the bssid of the target?")
         bssid     = str(input(""))
         print("\nEnter the channel of the network?")
-        channel   = int(input())
+        channel   = int(input(""))
         print("Enter the path of the output file ?")
         path = str(input(""))
         print("\nEnter the number of the packets [1-10000] ( 0 for unlimited number)")
