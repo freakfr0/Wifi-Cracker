@@ -38,9 +38,9 @@ This Python script provides a menu-based interface for various WiFi security too
 ## Usage
 
 1. Make sure you have Python installed on your system.
-2. Download the script and save it as `Wifi-MultiTool.py`.
+2. Download the script and save it as `Wifi-Cracker.py`.
 3. Open a terminal and navigate to the directory where the script is saved.
-4. Run the script using the command `python Wifi-MultiTool.py`.
+4. Run the script using the command `python Wifi-Cracker.py`.
 5. The script will display a menu with the available options.
 6. Choose the desired option by entering the corresponding number.
 7. Follow the on-screen instructions to perform the selected action.
